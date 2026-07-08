@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: #282c34;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem 3rem;
+    border-radius: 15px;
+}
+
+#startButton {
+    background-color: #61dafb;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#startButton:hover {
+    background-color: #21a1f1;
+}
+
+#status {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    min-height: 25px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
